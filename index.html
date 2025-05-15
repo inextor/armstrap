@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container-Based Grid Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Optional: Add some styling to the container and columns for visibility */
+        .container {
+            width: 80%; /* Example: Set a width for the container to demonstrate responsiveness */
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .c-col-sm-4, .c-col-md-6, .c-col-12 {
+            border: 1px solid #eee;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="c-col-12">.c-col-12</div>
+            <div class="c-col-sm-4 c-col-md-6">.c-col-sm-4 .c-col-md-6</div>
+            <div class="c-col-sm-4 c-col-md-6">.c-col-sm-4 .c-col-md-6</div>
+        </div>
+    </div>
+</body>
+</html>
