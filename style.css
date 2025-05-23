@@ -1,7 +1,12 @@
-.container {
+.c-container {
 	container-type: inline-size;
 }
 
+.gs, .glovestrap, .c-container
+{
+	container-type: inline-size;
+	container-name: glovestrap;
+}
 
 .c-row
 {
@@ -131,7 +136,7 @@
 .c-d-grid { display: grid !important; }
 
 /* Display Utilities for Breakpoints */
-@container (min-width: 576px) {
+@container glovestrap (min-width: 576px) {
 	.c-d-sm-none { display: none !important; }
 	.c-d-sm-inline { display: inline !important; }
 	.c-d-sm-block { display: block !important; }
@@ -139,7 +144,7 @@
 	.c-d-sm-grid { display: grid !important; }
 }
 
-@container (min-width: 768px) {
+@container glovestrap (min-width: 768px) {
 	.c-d-md-none { display: none !important; }
 	.c-d-md-inline { display: inline !important; }
 	.c-d-md-block { display: block !important; }
@@ -147,7 +152,7 @@
 	.c-d-md-grid { display: grid !important; }
 }
 
-@container (min-width: 992px) {
+@container glovestrap (min-width: 992px) {
 	.c-d-lg-none { display: none !important; }
 	.c-d-lg-inline { display: inline !important; }
 	.c-d-lg-block { display: block !important; }
@@ -155,7 +160,7 @@
 	.c-d-lg-grid { display: grid !important; }
 }
 
-@container (min-width: 1200px) {
+@container glovestrap (min-width: 1200px) {
 	.c-d-xl-none { display: none !important; }
 	.c-d-xl-inline { display: inline !important; }
 	.c-d-xl-block { display: block !important; }
