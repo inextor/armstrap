@@ -167,3 +167,49 @@
 	.c-d-xl-flex { display: flex !important; }
 	.c-d-xl-grid { display: grid !important; }
 }
+
+@container glovestrap (min-width: 1400px) {
+	.c-d-xxl-none { display: none !important; }
+	.c-d-xxl-inline { display: inline !important; }
+	.c-d-xxl-block { display: block !important; }
+	.c-d-xxl-flex { display: flex !important; }
+	.c-d-xxl-grid { display: grid !important; }
+}
+
+/* Text Alignment Utilities */
+
+/* Base Text Alignment */
+.c-text-start { text-align: start !important; }
+.c-text-end { text-align: end !important; }
+.c-text-center { text-align: center !important; }
+
+/* Text Alignment Utilities for Breakpoints */
+@container glovestrap (min-width: 576px) {
+	.c-text-sm-start { text-align: start !important; }
+	.c-text-sm-end { text-align: end !important; }
+	.c-text-sm-center { text-align: center !important; }
+}
+
+@container glovestrap (min-width: 768px) {
+	.c-text-md-start { text-align: start !important; }
+	.c-text-md-end { text-align: end !important; }
+	.c-text-md-center { text-align: center !important; }
+}
+
+@container glovestrap (min-width: 992px) {
+	.c-text-lg-start { text-align: start !important; }
+	.c-text-lg-end { text-align: end !important; }
+	.c-text-lg-center { text-align: center !important; }
+}
+
+@container glovestrap (min-width: 1200px) {
+	.c-text-xl-start { text-align: start !important; }
+	.c-text-xl-end { text-align: end !important; }
+	.c-text-xl-center { text-align: center !important; }
+}
+
+@container glovestrap (min-width: 1400px) {
+	.c-text-xxl-start { text-align: start !important; }
+	.c-text-xxl-end { text-align: end !important; }
+	.c-text-xxl-center { text-align: center !important; }
+}
